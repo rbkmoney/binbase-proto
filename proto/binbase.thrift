@@ -42,7 +42,7 @@ struct ResponseData {
 struct BinData {
     1: required string payment_system
     2: optional string bank_name
-    3: optional i16 iso_country_number
+    3: optional string isoa3
     4: optional CardType card_type
 }
 
