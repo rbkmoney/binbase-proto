@@ -36,13 +36,13 @@ struct ResponseData {
 * Данные о БИН
 * payment_system - платежная система
 * bank_name - наименование банка
-* country - страна эмитента
+* iso_country_code - страна эмитента в формате ISO3166-1 Alpha 3
 * card_type - тип карты
 */
 struct BinData {
     1: required string payment_system
     2: optional string bank_name
-    3: optional string isoa3
+    3: optional string iso_country_code
     4: optional CardType card_type
 }
 
