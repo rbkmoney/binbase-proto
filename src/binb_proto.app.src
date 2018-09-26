@@ -1,4 +1,4 @@
-{application, binb_proto, [
+{application, binbase_proto, [
     {description, "Thrift proto for binbase"},
     {vsn, "0.1.0"},
     {applications, [
