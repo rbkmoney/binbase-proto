@@ -1,0 +1,8 @@
+{application, binb_proto, [
+    {description, "Thrift proto for binbase"},
+    {vsn, "0.1.0"},
+    {applications, [
+        kernel,
+        stdlib
+    ]}
+]}.
