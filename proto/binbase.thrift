@@ -49,6 +49,7 @@ struct BinData {
     3: optional string iso_country_code
     4: optional CardType card_type
     5: required BinDataId bin_data_id
+    6: required string category
 }
 
 service Binbase {
